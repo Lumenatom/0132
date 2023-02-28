@@ -54,6 +54,11 @@ const Feedback = () => {
           onChange={(e) => setInputValue(e.target.value)}
           value={inputValue}
           className={style.input}
+          onKeyPress={(e) => {
+            if (e.ctrlKey && e.key === "Enter") {
+              sendMessage();
+            }
+          }}
         />
         <div className={style.btnBlock}>
           <button onClick={sendMessage} className={style.btn}>
