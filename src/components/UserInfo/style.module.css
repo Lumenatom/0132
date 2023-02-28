@@ -1,0 +1,76 @@
+
+.mainInfoUser{
+    display: flex;
+    gap: 25px;
+    padding: 20px 20px 50px 20px;
+}
+
+.image{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+.name{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+    margin-bottom: 10px;
+    margin-left: 200px;
+
+}
+
+.role{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #808080;
+    margin-bottom: 25px;
+    margin-left: 200px;
+
+}
+
+.wrapperStatus{
+    max-width: 75%;
+    background: #FFFBC8;
+    border: 1px solid #DADADA;
+    border-radius: 5px;padding: 15px 100px;
+    margin-left: 50px;
+
+}
+.status{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    max-width: 260px;
+    padding-left: 50px;
+}
+
+@media screen and (max-width: 415px){
+    .wrapperStatus{
+        max-width: 100%;
+        background: #FFFBC8;
+        border: 1px solid #DADADA;
+        border-radius: 5px;
+        margin-left: 0px;
+        margin-top: 120px;
+        padding: 15px;
+
+
+    }
+
+    .status{
+        max-width: 320px;
+        padding-left: 0px;
+    }
+}

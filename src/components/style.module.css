@@ -1,0 +1,56 @@
+.wrapper{
+    max-width: 720px;
+    min-width: 360px;
+    background: #FFFFFF;
+}
+.reviews{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 25px;
+    max-height: 1100px;
+}
+.reviewsItems{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    gap: 20px;
+    overflow: scroll;
+    padding-bottom: 20px;
+}
+.input{
+    margin-top: 20px;
+    width: 100%;
+    height: 75px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 1px;
+    outline: none;
+    font-size: 18px;
+}
+
+.btnBlock{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width: 281px;
+    height: 43px;
+    background: #FDD639;
+    border-radius: 23px;
+    margin-top: 25px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    outline: none;
+    border: none;
+}
+
+.submitBlock{
+    height: 190px;
+    padding: 0 20px;
+    background: #F2F2F2;
+}

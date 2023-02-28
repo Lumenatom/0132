@@ -1,0 +1,51 @@
+.wrapperHeaderReview{
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.reviewsPeriod{
+    display: flex;
+    gap: 15px;
+}
+
+.reviewsLast{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #333333;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.reviewsAll{
+    border: none;
+    outline: none;
+    color: #005DA1;
+    border-bottom: 1px solid #005DA1 ;
+    background: none;
+    cursor: pointer;
+
+}
+
+.blockLikeAndComent{
+    display: flex;
+    gap: 15px;
+}
+
+.iconsFeedback{
+    display: flex;
+    align-items: center;
+}
+
+.valueFeedback{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333333;
+}
