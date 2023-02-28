@@ -3,7 +3,7 @@ export const dataUsers = [
     id: 1,
     author: "Samuel Jackson",
     dateCreated: "13 Apr 2022",
-    text: "Hey Eva! You're cool. Nice pic!",
+    text: "Hey Eva! You're cool. Nice pic !",
   },
   {
     id: 2,
