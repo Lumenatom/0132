@@ -55,7 +55,10 @@ const Feedback = () => {
           value={inputValue}
           className={style.input}
           onKeyPress={(e) => {
-            if (e.ctrlKey && e.key === "Enter") {
+            if (
+              (e.metaKey || e.ctrlKey) &&
+              (e.key === "Enter" || e.charCode == "13" || e.charCode == "10")
+            ) {
               sendMessage();
             }
           }}
